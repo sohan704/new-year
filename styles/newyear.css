@@ -8,6 +8,7 @@ body{
 }
 
 
+
 /* banner design */
 .banner{
   background-image: url("../images/banner/banner1.png");
@@ -59,32 +60,48 @@ border: 0px;
 
 /* profile design */
 
-.profile{
+.entire-profile{
   display: flex;
   gap: 105px;
   margin: 0px 322px 130px 229px;
   background-color:#FFF;
   padding-top: 0px;
-  position: absolute;
-}
-.photos{
-  display: flex;
-  width: 528px;
-}
-.profile-background{
-   height: 528px;
-   width: 528px;
-   border-radius: 527.929px;
-   background: rgba(241, 91, 34, 0.20);
+  /* position: absolute; */
+  width: 100%;
+  margin: auto;
+  justify-content: center;
 }
 
-.profile-background{
+/* .profile-background{
   height: 528px;
   width: 528px;
   border-radius: 527.929px;
+  
+  position: relative;
+} */
+
+.profile{
+  height: 528px;
+  width: 528px;
+  position: relative;
+
+}
+.back-col{
+  height: 528px;
+  width: 528px;
+  position: absolute;
   background: rgba(241, 91, 34, 0.20);
+  margin-top: 200px;
+  margin-left: 23px;
+  border-radius: 50%;
 }
 
+.profile-photo{
+  position: absolute;
+ 
+  
+
+}
 .profile-text{
     padding: 230px 0px 84px  0px;
     max-width: 416px;
@@ -123,5 +140,127 @@ ul li{
   font-weight: 400;
   width: 315px;
   height: 26px;
+
+}
+section{
+  margin-bottom: 0px;
+}
+
+/* plan style */
+.plans{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  gap: 209px;
+}
+
+.plans-mode{
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+.plan-card{
+  height: 146px;
+  width: 270px;
+  /* border: 2px solid red; */
+}
+.plan-header{
+   text-align: center;
+   color:  #151414;
+   margin-bottom: 56px;
+   font-size: 40px;
+   font-weight: 800;
+
+}
+
+.plan-image{
+  margin-bottom: 18px;
+  /* width: 60%;
+  margin: auto; */
+  width: 93px;
+  height: 93px;
+  display: flex;
+  justify-content: center;
+}
+
+.plan-name{
+  color: #151414;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 800;
+  margin-bottom: 10px;
+
+  /* color: var(--dark-01, #151414);
+text-align: center;
+font-family: Work Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; */
+  
+}
+
+.plan-description{
+  color:  #737272;
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+
+}
+
+/* message section design */
+
+.message{
+  width: 75%;
+  margin: auto;
+  height: 300px;
+  position: relative;
+  margin-bottom: 100px;
+}
+/* .gradient-photo{
+  position: absolute;
+  background-image: url("../images/gradient2.png");
+} */
+.watch-photo{
+  position: absolute;
+  background-image: url("../images/watch.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.message-header{
+  color: #ffffff;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+width: 460px;
+padding: 59px 617px 147px 64px;
+position: absolute;
+
+}
+
+.button-container{
+  position: absolute;
+  border: none;
+  width: 160px;
+  height: 64px;
+  margin-left: 64px;
+  margin-top: 177px;
+  
+}
+
+.message-button{
+  position: absolute;
+  padding: 21px 36px 20px 36px;
+  background-color: white;
+  border: none;
+  
+  
+  color: #F15B22;
+text-align: center;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+border-radius: 3px;
 
 }
