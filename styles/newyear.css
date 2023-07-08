@@ -13,6 +13,7 @@ body{
   background-image: url("../images/banner/banner1.png");
   background-repeat: no-repeat;
   background-size: 1667px 808px;
+  margin-bottom: 0px;
 }
 
 .banner-text{
@@ -54,4 +55,73 @@ border: 0px;
 
 .contact-us-button{
   text-align: right;
+}
+
+/* profile design */
+
+.profile{
+  display: flex;
+  gap: 105px;
+  margin: 0px 322px 130px 229px;
+  background-color:#FFF;
+  padding-top: 0px;
+  position: absolute;
+}
+.photos{
+  display: flex;
+  width: 528px;
+}
+.profile-background{
+   height: 528px;
+   width: 528px;
+   border-radius: 527.929px;
+   background: rgba(241, 91, 34, 0.20);
+}
+
+.profile-background{
+  height: 528px;
+  width: 528px;
+  border-radius: 527.929px;
+  background: rgba(241, 91, 34, 0.20);
+}
+
+.profile-text{
+    padding: 230px 0px 84px  0px;
+    max-width: 416px;
+}
+
+.profile-header{
+  color:  #151414;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+margin-bottom: 0px;
+width: 288px;
+height: 94px;
+}
+
+.profile-description{
+  color: #444343;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 8px;
+  width: 416px;
+  height: 104px;
+  padding-bottom: 0px;
+}
+.profile-list{
+  margin-top: 0px;
+}
+ul li{
+  margin-bottom: 0px;
+  margin-top: 8px;
+  color:  #444343;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  width: 315px;
+  height: 26px;
+
 }
